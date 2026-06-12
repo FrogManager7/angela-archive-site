@@ -156,6 +156,13 @@ section {
     font-weight: 500;
 }
 
+.vscode{
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
 .top-wrapper {
     display: flex;
     gap: 40px;
