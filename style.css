@@ -163,6 +163,30 @@ section {
     display: block;
 }
 
+.project-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.project-link {
+    text-decoration: none;
+    background-color: rgba(127,106,216, 0.04);
+    color: #6f6fd1;
+
+    padding:6px 12px;
+
+    border-radius: 999px;
+    border: 2px solid rgba(127,106,216, 0.28);
+
+    font-size: 0.85rem;
+    font-weight: 500;
+
+    white-space: nowrap;
+
+}
+
 .top-wrapper {
     display: flex;
     gap: 40px;
