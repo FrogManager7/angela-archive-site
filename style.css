@@ -66,9 +66,16 @@ section {
     margin-bottom: 30px;
 }
 
+.works-grid {
+    display: grid;
 
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 40px;
+}
 
 .work-card {
+    width: 100%;
     background: rgba(255,255,255,0.72);
     border: 1px solid rgba(120,110,170,0.12);
     border-radius: 50px;
@@ -104,14 +111,14 @@ section {
     margin-bottom: 0;
 }
 
-.banner {
+.angela-banner {
     width:100%;
     height: 150px;
     object-fit: cover;
     display: block;
 }
 
-.icon {
+.angela-icon {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -122,6 +129,32 @@ section {
     left: 25px;
 
     border: 3px solid #faf8fc;
+}
+
+.logicpro {
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+
+    left: 185px;
+    bottom: 7px;
+
+    color: white;
+}
+
+.banner-text p {
+    margin: 0;
+    font-size: 14.5px;
+}
+
+.banner-text h4 {
+    margin: 0;
+    font-size: 23px;
 }
 
 .tags {
@@ -186,6 +219,65 @@ section {
     white-space: nowrap;
 
 }
+
+.anne-banner {
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.anne-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+
+    border: 3px solid #faf8fc;
+}
+
+.anne-sheet {
+    width: 350px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 25px;
+    left: 60px;
+}
+
+.banner-text-sheet {
+    position: absolute;
+
+    left: 170px;
+    bottom: 105px;
+
+    color: black;
+}
+
+.banner-text-sheet h4{
+  margin: 0;
+  font-size: 12px;
+}
+
+.station {
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.toad {
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
 
 .top-wrapper {
     display: flex;
