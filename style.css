@@ -278,6 +278,49 @@ section {
     display: block;
 }
 
+.manual-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.manual-card {
+    background: rgba(255,255,255,0.72);
+    border: 1px solid rgba(120,110,170,0.12);
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.manual-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    font-size: 12px;
+    color: #66607a;
+    font-weight: 500;
+}
+
+.manual-bar {
+    width: 3px;
+    height: 11px;
+    border-radius: 999px;
+    display: inline-block;
+}
+
+.observation {
+    background-color: #7b83c9;
+}
+
+.manual-card h3 {
+    margin: 5px 0 10px;
+    font-size: 24px;
+}
+
+.manual-card p {
+    margin: 0;
+    line-height: 1.8;
+}
 
 .top-wrapper {
     display: flex;
