@@ -312,6 +312,26 @@ section {
     background-color: #7b83c9;
 }
 
+.structure {
+    background-color: #6f8fb7;
+}
+
+.deep-dive {
+    background-color: #8b73b8;
+}
+
+.atmosphere {
+    background-color: #b08bc7;
+}
+
+.synchronization {
+    background-color: #78a8c8;
+}
+
+.optimization {
+    background-color: #8f8aa3;
+}
+
 .manual-card h3 {
     margin: 5px 0 10px;
     font-size: 24px;
