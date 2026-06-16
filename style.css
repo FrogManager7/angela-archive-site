@@ -416,6 +416,49 @@ section {
     font-weight: 700;
 }
 
+.interests-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 40px;
+}
+
+.interest-card {
+    width: 100%;
+    background: rgba(255,255,255,0.72);
+    border: 1px solid rgba(120,110,170,0.12);
+    border-radius: 30px;
+}
+
+.interest-content{
+    margin: 30px;
+}
+
+.interest-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    min-height: 150px;
+}
+
+.interest-tag {
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+
+    background-color: rgba(127,106,216, 0.09);
+    color: #6f6fd1;
+
+    padding: 6px 12px;
+    border-radius: 999px;
+
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+
 .top-wrapper {
     display: flex;
     gap: 40px;
