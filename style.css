@@ -458,6 +458,77 @@ section {
     font-weight: 500;
 }
 
+.notes-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.note-card {
+    background: rgba(255,255,255,0.72);
+    border: 1px solid rgba(120,110,170,0.12);
+    border-radius: 30px;
+    padding: 24px;
+}
+
+.note-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom:1px solid rgba(80,80,100,0.35);
+    padding-bottom: 12px;
+}
+
+.note-title h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.note-keywords {
+    margin:16px 0;
+    padding-left: 24px;
+    line-height: 1.7;
+}
+
+.note-detail {
+    display: none;
+    border-top: 1px solid rgba(80,80,100,0.35);
+    margin-top:16px;
+}
+
+.note-card.open .note-detail {
+    display: block;
+}
+
+.note-detail p {
+    border-bottom: 1px solid rgba(80,80,100,0.35);
+    padding: 16px 0;
+    margin: 0;
+    line-height: 1.8;
+}
+
+.note-detail p:last-child {
+    border-bottom: none;
+}
+
+.note-toggle {
+    margin-top: 16px;
+    padding-top: 14px;
+    border: none;
+    border-top: 1px solid rgba(80,80,100,0.35);
+    background: transparent;
+    color: #35384a;
+    font: inherit;
+    font-weight: 500px;
+    cursor: pointer; 
+}
+
+.archive-bar {
+    width: 2px;
+    height: 18px;
+    border-radius: 999px;
+    display: inline-block;
+}
 
 .top-wrapper {
     display: flex;
