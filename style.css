@@ -462,6 +462,13 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+    align-items: start;
+}
+
+.notes-column {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .note-card {
@@ -469,6 +476,20 @@ section {
     border: 1px solid rgba(120,110,170,0.12);
     border-radius: 30px;
     padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    align-self: start;
+}
+
+.note-open {
+    margin-top: auto;
+}
+
+.note-keywords {
+    min-height: 140px;
 }
 
 .note-title {
