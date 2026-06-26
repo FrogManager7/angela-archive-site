@@ -49,7 +49,7 @@ header {
     top: 0;
     z-index: 1000;
 
-    background: rgba(245,243,250,0/85);
+    background: rgba(245,243,250,0.85);
     backdrop-filter:blur(12px);
 
     border-bottom: 1px solid rgba(120,110,170,0.12);
@@ -74,6 +74,15 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.menu-button {
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #35384a;
 }
 
 nav a {
@@ -605,7 +614,7 @@ nav a {
     background: transparent;
     color: #35384a;
     font: inherit;
-    font-weight: 500px;
+    font-weight: 500;
     cursor: pointer; 
 }
 
@@ -895,110 +904,56 @@ nav a:hover {
     font-size: 50px
 }
 
-@media (max-width: 1270px) {
-    .top-wrapper {
-      flex-direction: column;
-      width: 100%;
-    }
-
-    .left-column,
-    .right-column {
-        width: 100%;
-        flex: none;
-    }
-
-    .right-column {
-        margin-top: 0;
-    }
-
-    .dog-image {
-        max-width: 360px;
-    }
-
-    .personality-card {
-        flex-wrap: wrap;
-    }
-
-    .personality-item {
-        flex: 1 1 40%;
-    }
-
-    .comment-card {
-        padding: 16px;
-    }
-
-    .comment-card p {
-        font-size: 15px;
-    }
+@media (max-width: 985px) {
+ .works-grid,
+ .manual-grid,
+ .manual-process-section,
+ .interests-grid,
+ .notes-grid {
+    grid-template-columns: 1fr;
+ }
     
 }
 
 @media (max-width: 600px) {
-    .header {
+  header .container {
+    position: relative;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+
+    background: rgba(255,255,255,0.95);
+    border: 1px solid rgba(120,110,170,0.12);
+    border-radius: 20px;
+    padding: 20px;
+    }
+
+   .nav-menu.open {
+        display:block;
+    }
+
+    .nav-menu ul {
         flex-direction: column;
-        gap: 12px;
+        gap: 14px;
     }
 
-    nav {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 8px;
-    }
+  .hero h1 {
+    font-size: 42px;
+  }
 
-    nav a {
-        font-size: 13px;
-    }
+  .hero p {
+    font-size: 16px;
+  }
 
-    .hero-text h1 {
-        font-size: 34px;
-        letter-spacing: 4px;
-    }
-
-    .top-wrapper {
-        gap: 20px;
-    }
-
-    .name-card span {
-        font-size: 36px;
-    }
-
-    .profile-row,
-    .hobby-row {
-        flex-direction: column;
-        gap: 8px;
-    }
-
-    .label {
-        width: auto;
-        border-right: none;
-        padding-right: 0;
-    }
-
-    .value {
-        padding-left: 0px;
-    }
-
-    .personality-card {
-        flex-direction: column;
-    }
-
-    .back-button {
-        width: 48px;
-        height: 48px;
-        right: 16px;
-        bottom: 16px;
-    }
-    
-    .comment-card {
-        padding: 14px;
-    }
-
-    .comment-card p {
-        font-size: 15px;
-        line-height: 1.8;
-    }
-
-    .footer p {
-        line-height: 1.6;
-    }
+  .container{
+    width: 92%;
+  }
 }
