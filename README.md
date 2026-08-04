@@ -1,5 +1,7 @@
 # Angela Portfolio
 
+[![Portfolio Preview](images/portfolio-preview.png)](https://frogmanager7.github.io/asmr-channel-site/)
+
 An archive of worlds, structures, and quiet creative expression.
 
 This portfolio showcases my creative works, observations, and design philosophy.
