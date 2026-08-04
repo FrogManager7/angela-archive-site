@@ -693,13 +693,6 @@ nav a:hover {
     margin-top: 48px;
 }
 
-audio {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  margin-bottom: 24px;
-}
-
 .copyright {
   margin-top: 48px;
 }
@@ -765,7 +758,9 @@ audio {
   }
 
   audio {
+    display: block;
     width: 100%;
     max-width: 100%;
+    margin-bottom: 24px;
   }
 }
