@@ -752,4 +752,9 @@ nav a:hover {
   .container{
     width: 92%;
   }
+
+  audio {
+    width: 100%;
+    max-width: 100%;
+  }
 }
