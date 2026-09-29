@@ -764,3 +764,60 @@ nav a:hover {
     margin-bottom: 24px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1d1b26;
+        color: #eeeaf5;
+    }
+
+    header {
+        background: rgba(29, 27, 38, 0.85);
+        border-bottom: 1px solid rgba(190, 180, 230, 0.15);
+    }
+
+    .logo, nav a {
+        color: #eeeaf5;
+    }
+
+    .about,
+    .work-card,
+    .manual-card,
+    .manual-process-card,
+    .interest-card,
+    .note-card {
+        background: rgba(45, 42, 58, 0.85);
+        border-color: rgba(190, 180, 230, 0.15);
+    }
+
+    .manual-label {
+        color: #eeeaf5;
+    }
+
+    .manual-label-process {
+        color: #eeeaf5;
+    }
+
+    .note-toggle {
+        color: #eeeaf5;
+    }
+
+    footer {
+        color: #b9a7e8;
+    }
+
+    footer p:first-child {
+        color: #eeeaf5;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+  .nav-menu {
+    background: rgba(45, 42, 58, 0.95);
+    border-color: rgba(190, 180, 230, 0.15);
+  }
+
+  .menu-button {
+    color: #eeeaf5;
+  }
+}
